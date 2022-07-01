@@ -7,6 +7,6 @@ app.use(cors());
 app.use(express.json());
 app.use(routes);
 
-app.listen("PORT", () => {
+app.listen(1554, () => {
   console.log('HTTP SERVER RUNNING');
 })
